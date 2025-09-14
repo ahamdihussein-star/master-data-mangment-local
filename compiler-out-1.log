@@ -1,0 +1,1285 @@
+
+> master-data-mangment@0.0.0 ng /Users/ahmedhussein/Projects/master-data-mangment-local
+> ng build
+
+Application bundle generation failed. [5.584 seconds]
+
+ ELIFECYCLE  Command failed with exit code 1.
+- Building...
+
+✘ [ERROR] NG4: Expected 2 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/admin-task-list/admin-task-list.component.html:68:146:
+      68 │ ...(), (data['status'] || data['Status'] || '').toString(), $event)">
+         ╵                                                             ~~~~~~
+
+  Error occurs in the template of component AdminTaskListComponent.
+
+    src/app/admin-task-list/admin-task-list.component.ts:17:15:
+      17 │   templateUrl: './admin-task-list.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2663: Cannot find name 'checked'. Did you mean the instance member 'this.checked'? [plugin angular-compiler]
+
+    src/app/admin-task-list/admin-task-list.component.ts:97:28:
+      97 │   this.updateCheckedSet(id, checked);
+         ╵                             ~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:8:21:
+      8 │          [ngClass]="[router.url.startsWith('/dashboard/my-task') ? ...
+        ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:9:21:
+      9 │         <img *ngIf="!router.url.startsWith('/dashboard/my-task')" s...
+        ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:10:20:
+      10 │         <img *ngIf="router.url.startsWith('/dashboard/my-task')" s...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:16:21:
+      16 │          [ngClass]="[router.url.startsWith('/dashboard/golden-requ...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:16:76:
+      16 │ ...shboard/golden-requests') || router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:17:21:
+      17 │         <img *ngIf="!router.url.startsWith('/dashboard/golden-requ...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:17:77:
+      17 │ ...hboard/golden-requests') && !router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:18:20:
+      18 │         <img *ngIf="router.url.startsWith('/dashboard/golden-reque...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:18:75:
+      18 │ ...shboard/golden-requests') || router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:24:21:
+      24 │          [ngClass]="[router.url.startsWith('/dashboard/quarantine'...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:25:21:
+      25 │         <img *ngIf="!router.url.startsWith('/dashboard/quarantine'...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:26:20:
+      26 │         <img *ngIf="router.url.startsWith('/dashboard/quarantine')...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:35:21:
+      35 │          [ngClass]="[router.url.startsWith('/dashboard/admin-task-...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:36:21:
+      36 │         <img *ngIf="!router.url.startsWith('/dashboard/admin-task-...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:37:20:
+      37 │         <img *ngIf="router.url.startsWith('/dashboard/admin-task-l...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:43:21:
+      43 │          [ngClass]="[router.url.startsWith('/dashboard/golden-requ...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:43:76:
+      43 │ ...shboard/golden-requests') || router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:44:21:
+      44 │         <img *ngIf="!router.url.startsWith('/dashboard/golden-requ...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:44:77:
+      44 │ ...hboard/golden-requests') && !router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:45:20:
+      45 │         <img *ngIf="router.url.startsWith('/dashboard/golden-reque...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:45:75:
+      45 │ ...shboard/golden-requests') || router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:51:21:
+      51 │          [ngClass]="[router.url.startsWith('/dashboard/duplicate-r...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:51:79:
+      51 │ ...oard/duplicate-requests') || router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:52:21:
+      52 │         <img *ngIf="!router.url.startsWith('/dashboard/duplicate-r...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:52:80:
+      52 │ ...ard/duplicate-requests') && !router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:53:20:
+      53 │         <img *ngIf="router.url.startsWith('/dashboard/duplicate-re...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:53:78:
+      53 │ ...oard/duplicate-requests') || router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:59:21:
+      59 │          [ngClass]="[router.url.startsWith('/dashboard/home') ? 'a...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:60:21:
+      60 │         <img *ngIf="!router.url.startsWith('/dashboard/home')" src...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:61:20:
+      61 │         <img *ngIf="router.url.startsWith('/dashboard/home')" src=...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:70:21:
+      70 │          [ngClass]="[router.url.startsWith('/dashboard/compliance-...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:71:21:
+      71 │         <img *ngIf="!router.url.startsWith('/dashboard/compliance-...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:72:20:
+      72 │         <img *ngIf="router.url.startsWith('/dashboard/compliance-t...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:78:21:
+      78 │          [ngClass]="[router.url.startsWith('/dashboard/golden-requ...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:78:76:
+      78 │ ...shboard/golden-requests') || router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:79:21:
+      79 │         <img *ngIf="!router.url.startsWith('/dashboard/golden-requ...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:79:77:
+      79 │ ...hboard/golden-requests') && !router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:80:20:
+      80 │         <img *ngIf="router.url.startsWith('/dashboard/golden-reque...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:80:75:
+      80 │ ...shboard/golden-requests') || router.url.startsWith('/dashboard/...
+         ╵                                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:89:21:
+      89 │          [ngClass]="[router.url.startsWith('/dashboard/demo-admin'...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:90:21:
+      90 │         <img *ngIf="!router.url.startsWith('/dashboard/demo-admin'...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:91:20:
+      91 │         <img *ngIf="router.url.startsWith('/dashboard/demo-admin')...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:98:21:
+      98 │          [ngClass]="[router.url.startsWith('/dashboard/golden-requ...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:99:21:
+      99 │         <img *ngIf="!router.url.startsWith('/dashboard/golden-requ...
+         ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:100:20:
+      100 │         <img *ngIf="router.url.startsWith('/dashboard/golden-requ...
+          ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:105:21:
+      105 │          [ngClass]="[router.url.startsWith('/dashboard/duplicate-...
+          ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:106:21:
+      106 │         <img *ngIf="!router.url.startsWith('/dashboard/duplicate-...
+          ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:107:20:
+      107 │         <img *ngIf="router.url.startsWith('/dashboard/duplicate-r...
+          ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:112:21:
+      112 │          [ngClass]="[router.url.startsWith('/dashboard/quarantine...
+          ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:113:21:
+      113 │         <img *ngIf="!router.url.startsWith('/dashboard/quarantine...
+          ╵                      ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:114:20:
+      114 │         <img *ngIf="router.url.startsWith('/dashboard/quarantine'...
+          ╵                     ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:126:16:
+      126 │     <div *ngIf="router.url.startsWith('/dashboard/my-task')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:130:16:
+      130 │     <div *ngIf="router.url.startsWith('/dashboard/quarantine')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:135:16:
+      135 │     <div *ngIf="router.url.includes('/dashboard/new-request')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:139:16:
+      139 │     <div *ngIf="router.url.startsWith('/dashboard/my-requests')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:143:16:
+      143 │     <div *ngIf="router.url.startsWith('/dashboard/home')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:147:16:
+      147 │     <div *ngIf="router.url.startsWith('/dashboard/admin-task-list...
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:151:16:
+      151 │     <div *ngIf="router.url.startsWith('/dashboard/duplicate-reque...
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:155:16:
+      155 │     <div *ngIf="router.url.startsWith('/dashboard/rejected')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:159:16:
+      159 │     <div *ngIf="router.url.startsWith('/dashboard/duplicate-custo...
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:164:16:
+      164 │     <div *ngIf="router.url.startsWith('/dashboard/golden-summary')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:169:16:
+      169 │     <div *ngIf="router.url.startsWith('/dashboard/golden-requests...
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:173:16:
+      173 │     <div *ngIf="router.url.startsWith('/dashboard/data-lineage')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:178:16:
+      178 │     <div *ngIf="router.url.startsWith('/dashboard/compliance-task...
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'DashboardComponent'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.html:183:16:
+      183 │     <div *ngIf="router.url.startsWith('/dashboard/demo-admin')">
+          ╵                 ~~~~~~
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/dashboard/dashboard.component.ts:10:15:
+      10 │   templateUrl: "./dashboard.component.html",
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.ts:18:71:
+      18 │ ...(PLATFORM_ID) private platformId: Object, private router: Router ,
+         ╵                                                      ~~~~~~
+
+
+✘ [ERROR] TS2687: All declarations of 'router' must have identical modifiers. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.ts:18:71:
+      18 │ ...(PLATFORM_ID) private platformId: Object, private router: Router ,
+         ╵                                                      ~~~~~~
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.ts:19:11:
+      19 │     public router: Router
+         ╵            ~~~~~~
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.ts:19:11:
+      19 │     public router: Router
+         ╵            ~~~~~~
+
+
+✘ [ERROR] TS2687: All declarations of 'router' must have identical modifiers. [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.component.ts:19:11:
+      19 │     public router: Router
+         ╵            ~~~~~~
+
+
+✘ [ERROR] /Users/ahmedhussein/Projects/master-data-mangment-local/src/app/dashboard/dashboard.component.ts: Argument name clash. (357:36)
+
+  355 | } }
+  356 | export class DashboardComponent {
+> 357 |     constructor(platformId, router, router) {
+      |                                     ^
+  358 |         this.platformId = platformId;
+  359 |         this.router = router;
+  360 |         this.router = router; [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.module.ts:5:35:
+      5 │ import { DashboardComponent } from './dashboard.component';
+        ╵                                    ~~~~~~~~~~~~~~~~~~~~~~~
+
+  This error came from the "onLoad" callback registered here:
+
+    node_modules/.pnpm/@angular-devkit+build-angular@17.3.17_@angular+compiler-cli@17.3.12_@angular+compiler@1_77e0824b21d0f9808e91081e26da68d3/node_modules/@angular-devkit/build-angular/src/tools/esbuild/angular/compiler-plugin.js:245:18:
+      245 │             build.onLoad({ filter: /\.[cm]?[jt]sx?$/ }, async (ar...
+          ╵                   ~~~~~~
+
+    at setup (/Users/ahmedhussein/Projects/master-data-mangment-local/node_modules/.pnpm/@angular-devkit+build-angular@17.3.17_@angular+compiler-cli@17.3.12_@angular+compiler@1_77e0824b21d0f9808e91081e26da68d3/node_modules/@angular-devkit/build-angular/src/tools/esbuild/angular/compiler-plugin.js:245:19)
+    at async handlePlugins (/Users/ahmedhussein/Projects/master-data-mangment-local/node_modules/.pnpm/esbuild@0.20.1/node_modules/esbuild/lib/main.js:1340:9)
+
+
+✘ [ERROR] /Users/ahmedhussein/Projects/master-data-mangment-local/src/app/dashboard/golden-summary/golden-summary.component.ts: Argument name clash. (777:30)
+
+  775 |     get isCompliance() { return this.user === '3'; }
+  776 |     get isDataEntry() { return this.user === '1'; }
+> 777 |     constructor(repo, router, router) {
+      |                               ^
+  778 |         this.repo = repo;
+  779 |         this.router = router;
+  780 |         this.router = router; [plugin angular-compiler]
+
+    src/app/dashboard/dashboard.module.ts:24:39:
+      24 │ ...mmaryComponent } from './golden-summary/golden-summary.component';
+         ╵                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  This error came from the "onLoad" callback registered here:
+
+    node_modules/.pnpm/@angular-devkit+build-angular@17.3.17_@angular+compiler-cli@17.3.12_@angular+compiler@1_77e0824b21d0f9808e91081e26da68d3/node_modules/@angular-devkit/build-angular/src/tools/esbuild/angular/compiler-plugin.js:245:18:
+      245 │             build.onLoad({ filter: /\.[cm]?[jt]sx?$/ }, async (ar...
+          ╵                   ~~~~~~
+
+    at setup (/Users/ahmedhussein/Projects/master-data-mangment-local/node_modules/.pnpm/@angular-devkit+build-angular@17.3.17_@angular+compiler-cli@17.3.12_@angular+compiler@1_77e0824b21d0f9808e91081e26da68d3/node_modules/@angular-devkit/build-angular/src/tools/esbuild/angular/compiler-plugin.js:245:19)
+    at async handlePlugins (/Users/ahmedhussein/Projects/master-data-mangment-local/node_modules/.pnpm/esbuild@0.20.1/node_modules/esbuild/lib/main.js:1340:9)
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/dashboard/golden-summary/golden-summary.component.ts:63:66:
+      63 │ ...ate repo: IDataRepo, private router: Router , private router: R...
+         ╵                                 ~~~~~~
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/dashboard/golden-summary/golden-summary.component.ts:63:91:
+      63 │ ...po: IDataRepo, private router: Router , private router: Router) {}
+         ╵                                                    ~~~~~~
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/dashboard/golden-summary/golden-summary.component.ts:63:91:
+      63 │ ...po: IDataRepo, private router: Router , private router: Router) {}
+         ╵                                                    ~~~~~~
+
+
+✘ [ERROR] TS2663: Cannot find name 'checked'. Did you mean the instance member 'this.checked'? [plugin angular-compiler]
+
+    src/app/duplicate-customer/duplicate-customer.component.ts:160:71:
+      160 │ ...d: any, event: any): void { this.updateCheckedSet(id, checked); }
+          ╵                                                          ~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'checked'. [plugin angular-compiler]
+
+    src/app/my-requests/my-requests.component.ts:276:8:
+      276 │     if (checked) {
+          ╵         ~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:5:20:
+      5 │         [ngClass]="[router.url == '/dashboard/my-task' ? 'activeTab...
+        ╵                     ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:8:17:
+      8 │           *ngIf="router.url != '/dashboard/my-task'"
+        ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:14:17:
+      14 │           *ngIf="router.url == '/dashboard/my-task'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:24:18:
+      24 │       [ngClass]="[router.url == '/dashboard/all-requests' ? 'activ...
+         ╵                   ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:27:17:
+      27 │           *ngIf="router.url != '/dashboard/all-requests'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:33:17:
+      33 │           *ngIf="router.url == '/dashboard/all-requests'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:44:20:
+      44 │         [ngClass]="[router.url == '/dashboard/home' ? 'activeTab' ...
+         ╵                     ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:47:17:
+      47 │           *ngIf="router.url != '/dashboard/home'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:53:17:
+      53 │           *ngIf="router.url == '/dashboard/home'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:62:18:
+      62 │       [ngClass]="[router.url == '/dashboard/quarantined-requests' ...
+         ╵                   ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:65:17:
+      65 │           *ngIf="router.url != '/dashboard/quarantined-requests'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:71:17:
+      71 │           *ngIf="router.url == '/dashboard/quarantined-requests'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:80:18:
+      80 │       [ngClass]="[router.url == '/dashboard/golden-requests' ? 'ac...
+         ╵                   ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:83:17:
+      83 │           *ngIf="router.url != '/dashboard/golden-requests'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:89:17:
+      89 │           *ngIf="router.url == '/dashboard/golden-requests'"
+         ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:98:18:
+      98 │       [ngClass]="[router.url == '/dashboard/duplicate-requests' ? ...
+         ╵                   ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:101:17:
+      101 │           *ngIf="router.url != '/dashboard/duplicate-requests'"
+          ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'router' is private and only accessible within class 'SidebarComponent'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.html:107:17:
+      107 │           *ngIf="router.url == '/dashboard/duplicate-requests'"
+          ╵                  ~~~~~~
+
+  Error occurs in the template of component SidebarComponent.
+
+    src/app/sidebar/sidebar.component.ts:9:15:
+      9 │   templateUrl: './sidebar.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.ts:15:72:
+      15 │ ...platformId: Object , private router: Router , public router: Ro...
+         ╵                                 ~~~~~~
+
+
+✘ [ERROR] TS2687: All declarations of 'router' must have identical modifiers. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.ts:15:72:
+      15 │ ...platformId: Object , private router: Router , public router: Ro...
+         ╵                                 ~~~~~~
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.ts:15:96:
+      15 │ ...ormId: Object , private router: Router , public router: Router) {}
+         ╵                                                    ~~~~~~
+
+
+✘ [ERROR] TS2300: Duplicate identifier 'router'. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.ts:15:96:
+      15 │ ...ormId: Object , private router: Router , public router: Router) {}
+         ╵                                                    ~~~~~~
+
+
+✘ [ERROR] TS2687: All declarations of 'router' must have identical modifiers. [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.component.ts:15:96:
+      15 │ ...ormId: Object , private router: Router , public router: Router) {}
+         ╵                                                    ~~~~~~
+
+
+✘ [ERROR] /Users/ahmedhussein/Projects/master-data-mangment-local/src/app/sidebar/sidebar.component.ts: Argument name clash. (137:36)
+
+  135 | } }
+  136 | export class SidebarComponent {
+> 137 |     constructor(platformId, router, router) {
+      |                                     ^
+  138 |         this.platformId = platformId;
+  139 |         this.router = router;
+  140 |         this.router = router; [plugin angular-compiler]
+
+    src/app/sidebar/sidebar.module.ts:4:33:
+      4 │ import { SidebarComponent } from './sidebar.component';
+        ╵                                  ~~~~~~~~~~~~~~~~~~~~~
+
+  This error came from the "onLoad" callback registered here:
+
+    node_modules/.pnpm/@angular-devkit+build-angular@17.3.17_@angular+compiler-cli@17.3.12_@angular+compiler@1_77e0824b21d0f9808e91081e26da68d3/node_modules/@angular-devkit/build-angular/src/tools/esbuild/angular/compiler-plugin.js:245:18:
+      245 │             build.onLoad({ filter: /\.[cm]?[jt]sx?$/ }, async (ar...
+          ╵                   ~~~~~~
+
+    at setup (/Users/ahmedhussein/Projects/master-data-mangment-local/node_modules/.pnpm/@angular-devkit+build-angular@17.3.17_@angular+compiler-cli@17.3.12_@angular+compiler@1_77e0824b21d0f9808e91081e26da68d3/node_modules/@angular-devkit/build-angular/src/tools/esbuild/angular/compiler-plugin.js:245:19)
+    at async handlePlugins (/Users/ahmedhussein/Projects/master-data-mangment-local/node_modules/.pnpm/esbuild@0.20.1/node_modules/esbuild/lib/main.js:1340:9)
+
+
