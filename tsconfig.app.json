@@ -9,7 +9,12 @@
   },
   "files": [
     "src/main.ts",
+<<<<<<< HEAD
    
+=======
+    "src/main.server.ts",
+    "server.ts"
+>>>>>>> 81966e9 (layout)
   ],
   "include": [
     "src/**/*.d.ts"

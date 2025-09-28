@@ -37,16 +37,30 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "src/styles.scss"
             ],
             "scripts": []
+=======
+              "src/styles.scss",
+              "node_modules/ng-zorro-antd/ng-zorro-antd.min.css"
+
+            ],
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "prerender": true,
+            "ssr": {
+              "entry": "server.ts"
+            }
+>>>>>>> 81966e9 (layout)
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
+<<<<<<< HEAD
                   "maximumWarning": "3mb",
                   "maximumError": "5mb"
                 },
@@ -73,6 +87,21 @@
                   "inlineCritical": false
                 }
               },
+=======
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+>>>>>>> 81966e9 (layout)
               "extractLicenses": false,
               "sourceMap": true
             }
@@ -122,4 +151,8 @@
   "cli": {
     "analytics": "40369335-f951-42ee-bc14-9c9db4bfc177"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 81966e9 (layout)
